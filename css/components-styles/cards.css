@@ -15,7 +15,7 @@
   border-bottom: 8px solid #191A23;
   border-radius: 16px;
   /* width: 50%; */
-  height: 240px;
+  height: 300px;
   display: flex;
 }
 
@@ -31,16 +31,17 @@
   height: 100%;
 }
 
-.card__link > p {
- font-size: 30px;
- line-height: 28px;
- font-weight: 600;
+.card__link>p {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 600;
 }
 
 .card__link {
   display: flex;
   align-items: center;
   gap: 16px;
+  margin: 8px 0 4px 0;
 }
 
 @media(max-width: 800px) {

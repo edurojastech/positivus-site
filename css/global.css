@@ -1,9 +1,36 @@
+/* =========================
+   GOOGLE FONTS
+========================= */
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
-@import url('./components-styles/text-color.css');
-@import url('./components-styles/accordions.css');
-@import url('./components-styles/bg-colors.css');
-@import url('./components-styles/team-cards.css');
+
+/* =========================
+   GLOBAL
+========================= */
+@import url('./global.css');
+
+/* =========================
+   BASE COMPONENTS
+========================= */
+@import url('./components.css');
+@import url('./navbar.css');
+@import url('./intro.css');
 @import url('./testimonials.css');
+
+/* =========================
+   UTILITIES
+========================= */
+@import url('./components-styles/text-color.css');
+@import url('./components-styles/bg-colors.css');
+
+/* =========================
+   COMPONENTS STYLES
+========================= */
+@import url('./components-styles/title-item.css');
+@import url('./components-styles/cards.css');
+@import url('./components-styles/card-fluid.css');
+@import url('./components-styles/team-cards.css');
+@import url('./components-styles/accordions.css');
+@import url('./components-styles/brands.css');
 
 * {
   margin: 0;
@@ -29,7 +56,9 @@ a {
 
 
 @media(max-width: 620px) {
-  .padding__default, section {
+
+  .padding__default,
+  section {
     padding: 10px 20px !important;
     margin: 20px 0px !important;
   }
@@ -42,14 +71,18 @@ a {
 }
 
 @media(max-width: 1920px) {
-  .padding__default, section {
+
+  .padding__default,
+  section {
     padding: 20px 160px;
     margin: 20px 0px !important;
   }
 }
 
 @media(max-width: 1400px) {
-  .padding__default, section {
+
+  .padding__default,
+  section {
     padding: 20px 60px;
     margin: 20px 0px !important;
   }
